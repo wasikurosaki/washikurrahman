@@ -114,7 +114,7 @@ export default function Home() {
               <motion.span className="inline">{displayText}</motion.span>;
             </div>
             <h1 className="md:text-2xl text-sm md:text-left text-center text-orange-20 md:w-[560px] mt-5">
-              So, I'm currently working as a Software Engineer at{" "}
+              So, I am currently working as a Software Engineer at{" "}
               <a href="https://www.robowaylabs.com/">
                 <span
                   style={{
@@ -141,7 +141,7 @@ export default function Home() {
                   BRAC University
                 </span>
               </a>
-              . Feel free to reach out to. I'm looking forward to connecting
+              . Feel free to reach out to. I am looking forward to connecting
               with like minded people.
             </h1>
           </div>
