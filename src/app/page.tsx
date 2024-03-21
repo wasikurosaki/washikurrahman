@@ -96,11 +96,11 @@ export default function Home() {
             <h1 className="md:text-5xl text-3xl text-orange-20 md:mt-0 mt-10">
               Hey There
             </h1>
-            <h1 className="md:text-5xl text-3xl text-orange-20">
-              This is{" "}
+            <h1 className="hidden md:flex md:text-5xl text-3xl text-orange-20">
+              This is{"  "}
               <span
                 style={{
-                  fontSize: "1.3rem",
+                  fontSize: "3rem",
                   color: "#fff",
                   textShadow:
                     "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
@@ -110,9 +110,11 @@ export default function Home() {
                 Washikur Rahman!
               </span>
             </h1>
+
             <div className="md:text-3xl text-2xl text-[#FFA500] text-normal">
               <motion.span className="inline">{displayText}</motion.span>;
             </div>
+
             <h1 className="md:text-2xl text-sm md:text-left text-center text-orange-20 md:w-[560px] mt-5">
               So, I am currently working as a Software Engineer at{" "}
               <a href="https://www.robowaylabs.com/">
