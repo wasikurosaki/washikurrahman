@@ -97,7 +97,7 @@ export default function Home() {
               Hey There
             </h1>
             <h1 className="hidden md:flex md:text-5xl text-3xl text-orange-20">
-              This is{"  "}
+              This is{"   "}
               <span
                 style={{
                   fontSize: "3rem",
@@ -106,7 +106,21 @@ export default function Home() {
                     "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
                 }}
               >
-                {" "}
+                {"  "}
+                Washikur Rahman!
+              </span>
+            </h1>
+            <h1 className="md:hidden md:text-5xl text-3xl text-orange-20">
+              This is{"   "}
+              <span
+                style={{
+                  fontSize: "1.4rem",
+                  color: "#fff",
+                  textShadow:
+                    "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
+                }}
+              >
+                {"  "}
                 Washikur Rahman!
               </span>
             </h1>
@@ -120,7 +134,7 @@ export default function Home() {
               <a href="https://www.robowaylabs.com/">
                 <span
                   style={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#ffff",
                     textShadow:
                       "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
@@ -134,7 +148,7 @@ export default function Home() {
               <a href="https://www.bracu.ac.bd/">
                 <span
                   style={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#fff",
                     textShadow:
                       "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
