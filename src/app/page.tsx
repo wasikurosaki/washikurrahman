@@ -2,6 +2,9 @@
 
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+import ButtonMain from "./components/button";
+import Create from "./components/Create";
 
 export default function Home() {
   const textIndex = useMotionValue(0);
@@ -311,20 +314,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="relative z-10 mt-[44rem]">
+        <div className="absolute">
+          <img
+            className="w-full h-full object-cover"
+            src="https://moewalls.com/wp-content/uploads/2023/06/chill-mario-pixel-thumb.jpg" // Replace with your video file path
+          ></img>
+          <div className="absolute inset-0 bg-black opacity-60"></div>
+        </div>
+        {/* <div className="flex md:flex-row flex-col md:gap-10 gap-8 absolute inset-0 items-center md:mx-40 mx-5 md:text-left text-center justify-between font-[Gorestka] text-white text-['Gorestka']">
+          <div className="mt-40">
+            <div className=" mt-[40rem] border-4 w-[30rem] h-[40rem] text-center flex flex-col rounded-2xl shadow-xl shadow-cyan-500">
+              <h1
+                style={{
+                  fontSize: "3rem",
+                  color: "#fff",
+                  textShadow:
+                    "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00c0ff, 0 0 20px #00c0ff, 0 0 30px #00c0ff, 0 0 40px #00c0ff, 0 0 55px #00c0ff, 0 0 75px #00c0ff",
+                }}
+              >
+                My Story!
+              </h1>
+
+              <p className="md:text-2xl text-sm md:text-left text-center text-orange-20 mt-10 mx-5">
+                asdasdas
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col mt-[20rem] gap-20">
+            <ButtonMain name="Eventizer" vari="outline" pathToRoute="about" />
+            <Create />
+          </div>
+        </div> */}
+      </section>
     </>
   );
-}
-
-{
-  /* // console.log("Technologies I'm Actively Working with: ");
-
-// const MyStack = [
-//   { lan: ["JavaScript, Python, Dart, C++, TypeScript, Assembly"] },
-//   { frontend: ["React, Next"] },
-//   { backend: ["NodeJs, ExpressJs"] },
-//   {
-//     styling: ["TailwindCSS, MaterialUI, DaisyUI, Shadcn, chakraUI, Bootstrap "],
-//   },
-//   { database: ["Mongodb, Mysql, PostgreSql"] },
-// ]; */
 }
